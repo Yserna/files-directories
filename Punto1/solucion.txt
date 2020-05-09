@@ -1,0 +1,10 @@
+¿Qué significa el contador de referencias (link count) de un directorio?
+
+    El Link count de un directorio se refiere a el número de enlaces que tiene ese directorio.
+    "El contador de referencias indica el número de copias del inodo que están activas (por ejemplo, porque el archivo está abierto por varios procesos).
+    Su uso es muy variado: instancias activas de un archivo, activa la solicitud de un proceso." 
+    Cuando un contador de referencias es 0, quiere decir que no hay más procesos que estén unidos a un archivo en específico.
+
+¿cómo cambia el número de entradas en el directorio?
+
+    Se deber cambiar la carpeta desde la cual se está llamando el archivo
